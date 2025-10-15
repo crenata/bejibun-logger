@@ -1,0 +1,42 @@
+{
+    "name": "@bejibun/logger",
+    "version": "0.1.0",
+    "author": "Havea Crenata <havea.crenata@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crenata/bejibun-logger.git"
+    },
+    "main": "index.js",
+    "module": "index.js",
+    "dependencies": {
+        "chalk": "^5.6.2",
+        "luxon": "^3.7.2"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/luxon": "^3.7.1",
+        "tsc-alias": "^1.8.16"
+    },
+    "bugs": {
+        "url": "https://github.com/crenata/bejibun-logger/issues"
+    },
+    "description": "A beauty logger for your Apps",
+    "homepage": "https://github.com/crenata/bejibun-logger#readme",
+    "keywords": [
+        "bun",
+        "bun framework",
+        "logger",
+        "bejibun",
+        "typescript"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "alias": "bunx tsc-alias -p tsconfig.json",
+        "rsync": "rsync -a dist/ ./",
+        "clean": "rm -rf dist",
+        "build": "bunx tsc -p tsconfig.json && bun run alias && bun run rsync && bun run clean",
+        "deploy": "bun run build && npm publish --access public"
+    },
+    "type": "module",
+    "types": "index.d.ts"
+}
