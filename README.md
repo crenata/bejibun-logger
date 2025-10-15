@@ -8,8 +8,8 @@
 
 </div>
 
-# Core of Bejibun
-Core of Bejibun Framework.
+# Logger
+A beauty logger for your Apps.
 
 ## Usage
 
