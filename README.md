@@ -24,5 +24,16 @@ bun add @bejibun/logger
 bun ace install @bejibun/logger
 ```
 
+### How to Use
+How to use the package.
+
+```ts
+Logger.debug("This is DEBUG message.");
+Logger.error("This is ERROR message.");
+Logger.info("This is INFO message.");
+Logger.warn("This is WARN message.");
+Logger.separator();
+```
+
 ## Contributors
 - [Havea Crenata](mailto:havea.crenata@gmail.com)
