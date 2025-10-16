@@ -17,6 +17,8 @@ What's New :
 
 **Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
 
+---
+
 ## [v0.1.0](https://github.com/crenata/bejibun-logger/compare/v0.1.0...v0.1.0) - 2025-10-15
 
 ### 🩹 Fixes
