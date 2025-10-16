@@ -28,16 +28,16 @@ bun ace install @bejibun/logger
 How to use the package.
 
 ```ts
-# Default
+// Default
 Logger.debug("This is DEBUG message."); // 2025-10-16 16:00:00.000 [DEBUG]: This is DEBUG message.
 Logger.error("This is ERROR message."); // 2025-10-16 16:00:00.000 [ERROR]: This is ERROR message.
 Logger.info("This is INFO message."); // 2025-10-16 16:00:00.000 [INFO]: This is INFO message.
 Logger.warn("This is WARN message."); // 2025-10-16 16:00:00.000 [WARN]: This is WARN message.
 
-# With Context
+// With Context
 Logger.setContext("Exception").error("Error with Context."); // 2025-10-16 16:00:00.000 [Exception]: Error with Context.
 
-# Others
+// Others
 Logger.separator(); // --------------------- until end of terminal width
 ```
 
