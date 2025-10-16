@@ -1,3 +1,4 @@
+import {defineValue, isNotEmpty} from "@bejibun/utils";
 import {DateTime} from "luxon";
 import Chalk from "@/facades/Chalk";
 
@@ -5,11 +6,19 @@ export default class LoggerBuilder {
     protected timestamp: string;
     protected type: string;
     protected value: string;
+    protected context: string;
 
     public constructor() {
         this.timestamp = DateTime.now().toFormat("yyyy-MM-dd HH:mm:ss.SSS");
         this.type = "";
+        this.context = "";
         this.value = "";
+    }
+
+    public setContext(context: string): LoggerBuilder {
+        this.context = context;
+
+        return this;
     }
 
     public setValue(value: string): LoggerBuilder {
@@ -18,28 +27,36 @@ export default class LoggerBuilder {
         return this;
     }
 
-    public debug(): LoggerBuilder {
+    public debug(value?: string): void {
         this.type = "DEBUG";
 
-        return this;
+        if (isNotEmpty(value)) this.setValue(value as string);
+
+        this.show();
     }
 
-    public error(): LoggerBuilder {
+    public error(value?: string): void {
         this.type = "ERROR";
 
-        return this;
+        if (isNotEmpty(value)) this.setValue(value as string);
+
+        this.show();
     }
 
-    public info(): LoggerBuilder {
+    public info(value?: string): void {
         this.type = "INFO";
 
-        return this;
+        if (isNotEmpty(value)) this.setValue(value as string);
+
+        this.show();
     }
 
-    public warn(): LoggerBuilder {
+    public warn(value?: string): void {
         this.type = "WARN";
 
-        return this;
+        if (isNotEmpty(value)) this.setValue(value as string);
+
+        this.show();
     }
 
     public separator(): void {
@@ -47,7 +64,7 @@ export default class LoggerBuilder {
     }
 
     public show(): void {
-        let typeValue: string = `[${this.type}]`;
+        let typeValue: string = `[${defineValue(this.context, this.type)}]`;
         let chalk: string;
 
         switch (this.type) {

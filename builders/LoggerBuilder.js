@@ -1,39 +1,54 @@
+import { defineValue, isNotEmpty } from "@bejibun/utils";
 import { DateTime } from "luxon";
 import Chalk from "../facades/Chalk";
 export default class LoggerBuilder {
     timestamp;
     type;
     value;
+    context;
     constructor() {
         this.timestamp = DateTime.now().toFormat("yyyy-MM-dd HH:mm:ss.SSS");
         this.type = "";
+        this.context = "";
         this.value = "";
+    }
+    setContext(context) {
+        this.context = context;
+        return this;
     }
     setValue(value) {
         this.value = value;
         return this;
     }
-    debug() {
+    debug(value) {
         this.type = "DEBUG";
-        return this;
+        if (isNotEmpty(value))
+            this.setValue(value);
+        this.show();
     }
-    error() {
+    error(value) {
         this.type = "ERROR";
-        return this;
+        if (isNotEmpty(value))
+            this.setValue(value);
+        this.show();
     }
-    info() {
+    info(value) {
         this.type = "INFO";
-        return this;
+        if (isNotEmpty(value))
+            this.setValue(value);
+        this.show();
     }
-    warn() {
+    warn(value) {
         this.type = "WARN";
-        return this;
+        if (isNotEmpty(value))
+            this.setValue(value);
+        this.show();
     }
     separator() {
         console.log("-".repeat(process.stdout.columns));
     }
     show() {
-        let typeValue = `[${this.type}]`;
+        let typeValue = `[${defineValue(this.context, this.type)}]`;
         let chalk;
         switch (this.type) {
             case "DEBUG":
