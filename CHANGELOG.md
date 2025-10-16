@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.13](https://github.com/crenata/bejibun-logger/compare/v0.1.12...v0.1.13) - 2025-10-15
+
+### 🩹 Fixes
+- Adding export default from root package
+
+### 📖 Changes
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+- Ghulje ([@ghulje](https://github.com/ghulje))
+
+**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.12](https://github.com/crenata/bejibun-logger/compare/v0.1.0...v0.1.12) - 2025-10-15
 
 ### 🩹 Fixes
