@@ -28,6 +28,8 @@ bun ace install @bejibun/logger
 How to use the package.
 
 ```ts
+import Logger from "@bejibun/logger";
+
 // Default
 Logger.debug("This is DEBUG message."); // 2025-10-16 16:00:00.000 [DEBUG]: This is DEBUG message.
 Logger.error("This is ERROR message."); // 2025-10-16 16:00:00.000 [ERROR]: This is ERROR message.
