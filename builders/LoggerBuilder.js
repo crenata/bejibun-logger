@@ -25,24 +25,31 @@ export default class LoggerBuilder {
         if (isNotEmpty(value))
             this.setValue(value);
         this.show();
+        return this;
     }
     error(value) {
         this.type = "ERROR";
         if (isNotEmpty(value))
             this.setValue(value);
         this.show();
+        return this;
     }
     info(value) {
         this.type = "INFO";
         if (isNotEmpty(value))
             this.setValue(value);
         this.show();
+        return this;
     }
     warn(value) {
         this.type = "WARN";
         if (isNotEmpty(value))
             this.setValue(value);
         this.show();
+        return this;
+    }
+    trace(error) {
+        console.error(error);
     }
     separator() {
         console.log("-".repeat(process.stdout.columns));

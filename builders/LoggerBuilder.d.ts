@@ -6,10 +6,11 @@ export default class LoggerBuilder {
     constructor();
     setContext(context: string): LoggerBuilder;
     setValue(value: string): LoggerBuilder;
-    debug(value?: string): void;
-    error(value?: string): void;
-    info(value?: string): void;
-    warn(value?: string): void;
+    debug(value?: string): LoggerBuilder;
+    error(value?: string): LoggerBuilder;
+    info(value?: string): LoggerBuilder;
+    warn(value?: string): LoggerBuilder;
+    trace(error: Error): void;
     separator(): void;
     show(): void;
 }

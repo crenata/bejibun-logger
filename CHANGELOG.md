@@ -3,6 +3,22 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.1.14](https://github.com/crenata/bejibun-logger/compare/v0.1.13...v0.1.14) - 2025-10-18
+
+### 🩹 Fixes
+
+### 📖 Changes
+What's New :
+- Adding `.trace()` for error logs
+
+### ❤️Contributors
+- Havea Crenata ([@crenata](https://github.com/crenata))
+- Ghulje ([@ghulje](https://github.com/ghulje))
+
+**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+
+---
+
 ## [v0.1.13](https://github.com/crenata/bejibun-logger/compare/v0.1.12...v0.1.13) - 2025-10-15
 
 ### 🩹 Fixes

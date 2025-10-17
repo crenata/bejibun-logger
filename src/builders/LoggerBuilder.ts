@@ -27,36 +27,48 @@ export default class LoggerBuilder {
         return this;
     }
 
-    public debug(value?: string): void {
+    public debug(value?: string): LoggerBuilder {
         this.type = "DEBUG";
 
         if (isNotEmpty(value)) this.setValue(value as string);
 
         this.show();
+
+        return this;
     }
 
-    public error(value?: string): void {
+    public error(value?: string): LoggerBuilder {
         this.type = "ERROR";
 
         if (isNotEmpty(value)) this.setValue(value as string);
 
         this.show();
+
+        return this;
     }
 
-    public info(value?: string): void {
+    public info(value?: string): LoggerBuilder {
         this.type = "INFO";
 
         if (isNotEmpty(value)) this.setValue(value as string);
 
         this.show();
+
+        return this;
     }
 
-    public warn(value?: string): void {
+    public warn(value?: string): LoggerBuilder {
         this.type = "WARN";
 
         if (isNotEmpty(value)) this.setValue(value as string);
 
         this.show();
+
+        return this;
+    }
+
+    public trace(error: Error): void {
+        console.error(error);
     }
 
     public separator(): void {

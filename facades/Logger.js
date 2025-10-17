@@ -4,18 +4,18 @@ export default class Logger {
         return new LoggerBuilder().setContext(context);
     }
     static debug(value) {
-        new LoggerBuilder().setValue(value).debug();
+        return new LoggerBuilder().setValue(value).debug();
     }
     static error(value) {
-        new LoggerBuilder().setValue(value).error();
+        return new LoggerBuilder().setValue(value).error();
     }
     static info(value) {
-        new LoggerBuilder().setValue(value).info();
+        return new LoggerBuilder().setValue(value).info();
     }
     static warn(value) {
-        new LoggerBuilder().setValue(value).warn();
+        return new LoggerBuilder().setValue(value).warn();
     }
     static separator() {
-        new LoggerBuilder().separator();
+        return new LoggerBuilder().separator();
     }
 }

@@ -5,23 +5,23 @@ export default class Logger {
         return new LoggerBuilder().setContext(context);
     }
 
-    public static debug(value: string): void {
-        new LoggerBuilder().setValue(value).debug();
+    public static debug(value: string): LoggerBuilder {
+        return new LoggerBuilder().setValue(value).debug();
     }
 
-    public static error(value: string): void {
-        new LoggerBuilder().setValue(value).error();
+    public static error(value: string): LoggerBuilder {
+        return new LoggerBuilder().setValue(value).error();
     }
 
-    public static info(value: string): void {
-        new LoggerBuilder().setValue(value).info();
+    public static info(value: string): LoggerBuilder {
+        return new LoggerBuilder().setValue(value).info();
     }
 
-    public static warn(value: string): void {
-        new LoggerBuilder().setValue(value).warn();
+    public static warn(value: string): LoggerBuilder {
+        return new LoggerBuilder().setValue(value).warn();
     }
 
     public static separator(): void {
-        new LoggerBuilder().separator();
+        return new LoggerBuilder().separator();
     }
 }
