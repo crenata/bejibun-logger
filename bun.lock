@@ -16,7 +16,7 @@
     },
   },
   "packages": {
-    "@bejibun/utils": ["@bejibun/utils@0.1.0", "", {}, "sha512-zH9Sxo1C+y8rzLTf5/t78HfDYp8C34d+gsEzbo98OKKwI9so37ljdz2LDlXxDinp3lDBi9r/l/EmkNLECfP10g=="],
+    "@bejibun/utils": ["@bejibun/utils@0.1.1", "", {}, "sha512-8TofYYN+EhPQgNOkyovMaAamRqbK/PisrAxjspXFlqVLj8bnmdOsZjosTpNXesLGIftn4rKkaFsfaafD//31Hg=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 

@@ -9,7 +9,7 @@
     "main": "index.js",
     "module": "index.js",
     "dependencies": {
-        "@bejibun/utils": "^0.1.0",
+        "@bejibun/utils": "^0.1.1",
         "chalk": "^5.6.2",
         "luxon": "^3.7.2"
     },
