@@ -5,5 +5,6 @@ export default class Logger {
     static error(value: string): LoggerBuilder;
     static info(value: string): LoggerBuilder;
     static warn(value: string): LoggerBuilder;
+    static empty(): void;
     static separator(): void;
 }

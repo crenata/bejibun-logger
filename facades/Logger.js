@@ -15,6 +15,9 @@ export default class Logger {
     static warn(value) {
         return new LoggerBuilder().setValue(value).warn();
     }
+    static empty() {
+        return new LoggerBuilder().empty();
+    }
     static separator() {
         return new LoggerBuilder().separator();
     }

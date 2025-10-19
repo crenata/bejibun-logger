@@ -40,6 +40,7 @@ Logger.warn("This is WARN message."); // 2025-10-16 16:00:00.000 [WARN]: This is
 Logger.setContext("Exception").error("Error with Context."); // 2025-10-16 16:00:00.000 [Exception]: Error with Context.
 
 // Others
+Logger.empty(); // such as <br/>
 Logger.separator(); // --------------------- until end of terminal width
 ```
 

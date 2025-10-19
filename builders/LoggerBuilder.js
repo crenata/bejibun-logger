@@ -51,6 +51,9 @@ export default class LoggerBuilder {
     trace(error) {
         console.error(error);
     }
+    empty() {
+        console.log();
+    }
     separator() {
         console.log("-".repeat(process.stdout.columns));
     }

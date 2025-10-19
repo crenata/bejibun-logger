@@ -71,6 +71,10 @@ export default class LoggerBuilder {
         console.error(error);
     }
 
+    public empty(): void {
+        console.log();
+    }
+
     public separator(): void {
         console.log("-".repeat(process.stdout.columns));
     }
