@@ -1,6 +1,6 @@
 {
     "name": "@bejibun/logger",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "author": "Havea Crenata <havea.crenata@gmail.com>",
     "repository": {
         "type": "git",
@@ -36,7 +36,7 @@
         "rsync": "rsync -a dist/ ./",
         "clean": "rm -rf dist",
         "build": "bunx tsc -p tsconfig.json && bun run alias && bun run rsync && bun run clean",
-        "deploy": "bun run build && npm publish --access public"
+        "deploy": "bun run build && bun publish --access public"
     },
     "type": "module",
     "types": "index.d.ts"

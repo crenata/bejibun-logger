@@ -49,7 +49,8 @@ export default class LoggerBuilder {
         return this;
     }
     trace(error) {
-        console.error(error);
+        if (isNotEmpty(error))
+            console.error(error);
     }
     empty() {
         console.log();
