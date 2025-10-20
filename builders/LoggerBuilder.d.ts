@@ -10,7 +10,7 @@ export default class LoggerBuilder {
     error(value?: string): LoggerBuilder;
     info(value?: string): LoggerBuilder;
     warn(value?: string): LoggerBuilder;
-    trace(error?: Error): void;
+    trace(error?: Error | string): void;
     empty(): void;
     separator(): void;
     show(): void;

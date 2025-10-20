@@ -67,7 +67,7 @@ export default class LoggerBuilder {
         return this;
     }
 
-    public trace(error?: Error): void {
+    public trace(error?: Error | string): void {
         if (isNotEmpty(error)) console.error(error);
     }
 
