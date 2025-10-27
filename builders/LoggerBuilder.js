@@ -7,7 +7,7 @@ export default class LoggerBuilder {
     value;
     context;
     constructor() {
-        this.timestamp = Luxon.datetime.now().toFormat("yyyy-MM-dd HH:mm:ss.SSS");
+        this.timestamp = Luxon.DateTime.now().toFormat("yyyy-MM-dd HH:mm:ss.SSS");
         this.type = "";
         this.context = "";
         this.value = "";

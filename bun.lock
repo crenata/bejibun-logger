@@ -4,7 +4,7 @@
     "": {
       "name": "@bejibun/logger",
       "dependencies": {
-        "@bejibun/utils": "^0.1.16",
+        "@bejibun/utils": "^0.1.18",
         "chalk": "^5.6.2",
       },
       "devDependencies": {
@@ -16,7 +16,7 @@
   "packages": {
     "@bejibun/logger": ["@bejibun/logger@0.1.18", "", { "dependencies": { "@bejibun/utils": "^0.1.1", "chalk": "^5.6.2", "luxon": "^3.7.2" } }, "sha512-UP0SU+x/sfNtIC9+HWgToS53bGSK5Ot+oRdbAfzgl9AXfqTOhRP9lCJvaMhifl4w0Rwuye/69NNMX+GWPFkR1A=="],
 
-    "@bejibun/utils": ["@bejibun/utils@0.1.16", "", { "dependencies": { "@bejibun/logger": "^0.1.18", "luxon": "^3.7.2" } }, "sha512-CPmyqPmuEv55s/e4WcN/yImrUYESLdCpJX6I6Xq9eJfHcHmDSSch3cq8iXlqzrOAUtq/Fl69RmTl6Ekm+DZZsQ=="],
+    "@bejibun/utils": ["@bejibun/utils@0.1.18", "", { "dependencies": { "@bejibun/logger": "^0.1.18", "luxon": "^3.7.2" } }, "sha512-DWoGes9gRwir28fGQmatXJiPFwxz4V+oJx0sQNs8y7OYdEnzelLafBUOV3lKT9JLdYvQXAEVvM9LcEftPzgwMg=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
@@ -109,5 +109,7 @@
     "tsc-alias": ["tsc-alias@1.8.16", "", { "dependencies": { "chokidar": "^3.5.3", "commander": "^9.0.0", "get-tsconfig": "^4.10.0", "globby": "^11.0.4", "mylas": "^2.1.9", "normalize-path": "^3.0.0", "plimit-lit": "^1.2.6" }, "bin": { "tsc-alias": "dist/bin/index.js" } }, "sha512-QjCyu55NFyRSBAl6+MTFwplpFcnm2Pq01rR/uxfqJoLMm6X3O14KEGtaSDZpJYaE1bJBGDjD0eSuiIWPe2T58g=="],
 
     "undici-types": ["undici-types@7.14.0", "", {}, "sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA=="],
+
+    "@bejibun/logger/@bejibun/utils": ["@bejibun/utils@0.1.16", "", { "dependencies": { "@bejibun/logger": "^0.1.18", "luxon": "^3.7.2" } }, "sha512-CPmyqPmuEv55s/e4WcN/yImrUYESLdCpJX6I6Xq9eJfHcHmDSSch3cq8iXlqzrOAUtq/Fl69RmTl6Ekm+DZZsQ=="],
   }
 }

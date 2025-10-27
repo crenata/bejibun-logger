@@ -1,6 +1,6 @@
 {
     "name": "@bejibun/logger",
-    "version": "0.1.19",
+    "version": "0.1.20",
     "author": "Havea Crenata <havea.crenata@gmail.com>",
     "repository": {
         "type": "git",
@@ -9,7 +9,7 @@
     "main": "index.js",
     "module": "index.js",
     "dependencies": {
-        "@bejibun/utils": "^0.1.16",
+        "@bejibun/utils": "^0.1.18",
         "chalk": "^5.6.2"
     },
     "devDependencies": {
