@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [v0.1.17](https://github.com/crenata/bejibun-logger/compare/v0.1.16...v0.1.17) - 2025-10-20
+## [v0.1.17](https://github.com/Bejibun-Framework/bejibun-logger/compare/v0.1.16...v0.1.17) - 2025-10-20
 
 ### 🩹 Fixes
 
@@ -15,11 +15,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-logger/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.16](https://github.com/crenata/bejibun-logger/compare/v0.1.14...v0.1.16) - 2025-10-19
+## [v0.1.16](https://github.com/Bejibun-Framework/bejibun-logger/compare/v0.1.14...v0.1.16) - 2025-10-19
 
 ### 🩹 Fixes
 
@@ -31,11 +31,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-logger/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.14](https://github.com/crenata/bejibun-logger/compare/v0.1.13...v0.1.14) - 2025-10-18
+## [v0.1.14](https://github.com/Bejibun-Framework/bejibun-logger/compare/v0.1.13...v0.1.14) - 2025-10-18
 
 ### 🩹 Fixes
 
@@ -47,11 +47,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-logger/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.13](https://github.com/crenata/bejibun-logger/compare/v0.1.12...v0.1.13) - 2025-10-15
+## [v0.1.13](https://github.com/Bejibun-Framework/bejibun-logger/compare/v0.1.12...v0.1.13) - 2025-10-15
 
 ### 🩹 Fixes
 - Adding export default from root package
@@ -62,11 +62,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-logger/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.12](https://github.com/crenata/bejibun-logger/compare/v0.1.0...v0.1.12) - 2025-10-15
+## [v0.1.12](https://github.com/Bejibun-Framework/bejibun-logger/compare/v0.1.0...v0.1.12) - 2025-10-15
 
 ### 🩹 Fixes
 
@@ -78,11 +78,11 @@ What's New :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-logger/blob/master/CHANGELOG.md
 
 ---
 
-## [v0.1.0](https://github.com/crenata/bejibun-logger/compare/v0.1.0...v0.1.0) - 2025-10-15
+## [v0.1.0](https://github.com/Bejibun-Framework/bejibun-logger/compare/v0.1.0...v0.1.0) - 2025-10-15
 
 ### 🩹 Fixes
 
@@ -101,4 +101,4 @@ Available Logs :
 - Havea Crenata ([@crenata](https://github.com/crenata))
 - Ghulje ([@ghulje](https://github.com/ghulje))
 
-**Full Changelog**: https://github.com/crenata/bejibun-logger/blob/master/CHANGELOG.md
+**Full Changelog**: https://github.com/Bejibun-Framework/bejibun-logger/blob/master/CHANGELOG.md

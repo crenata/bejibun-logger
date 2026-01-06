@@ -4,7 +4,7 @@
     "author": "Havea Crenata <havea.crenata@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/crenata/bejibun-logger.git"
+        "url": "git+https://github.com/Bejibun-Framework/bejibun-logger.git"
     },
     "main": "index.js",
     "module": "index.js",
@@ -17,10 +17,10 @@
         "tsc-alias": "^1.8.16"
     },
     "bugs": {
-        "url": "https://github.com/crenata/bejibun-logger/issues"
+        "url": "https://github.com/Bejibun-Framework/bejibun-logger/issues"
     },
     "description": "A beauty logger for your Apps",
-    "homepage": "https://github.com/crenata/bejibun-logger#readme",
+    "homepage": "https://github.com/Bejibun-Framework/bejibun-logger#readme",
     "keywords": [
         "bun",
         "bun framework",
